@@ -1,0 +1,2 @@
+{"doc_id":"smoke_001","dialogue":"Alice: The hotel room was clean.\nBob: The Wi-Fi was unstable in the evening.","gold_triplets":[{"target":"hotel room","opinion":"clean","sentiment":"positive"},{"target":"Wi-Fi","opinion":"unstable","sentiment":"negative"}]}
+

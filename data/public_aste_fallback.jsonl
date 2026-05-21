@@ -1,0 +1,31 @@
+{"doc_id":"fallback_001","dialogue":"Reviewer: The battery life is good and the cord is unnecessary at night.","gold_triplets":[{"target":"battery life","opinion":"good","sentiment":"positive"}]}
+{"doc_id":"fallback_002","dialogue":"Reviewer: The service was slow and the staff was rude.","gold_triplets":[{"target":"service","opinion":"slow","sentiment":"negative"},{"target":"staff","opinion":"rude","sentiment":"negative"}]}
+{"doc_id":"fallback_003","dialogue":"Reviewer: The food tasted excellent but the price was expensive.","gold_triplets":[{"target":"food","opinion":"excellent","sentiment":"positive"},{"target":"price","opinion":"expensive","sentiment":"negative"}]}
+{"doc_id":"fallback_004","dialogue":"Reviewer: The screen is bright and clear.","gold_triplets":[{"target":"screen","opinion":"bright","sentiment":"positive"},{"target":"screen","opinion":"clear","sentiment":"positive"}]}
+{"doc_id":"fallback_005","dialogue":"Reviewer: The keyboard is uncomfortable for long typing sessions.","gold_triplets":[{"target":"keyboard","opinion":"uncomfortable","sentiment":"negative"}]}
+{"doc_id":"fallback_006","dialogue":"Reviewer: The room was clean but noisy.","gold_triplets":[{"target":"room","opinion":"clean","sentiment":"positive"},{"target":"room","opinion":"noisy","sentiment":"negative"}]}
+{"doc_id":"fallback_007","dialogue":"Reviewer: The camera quality is poor in low light.","gold_triplets":[{"target":"camera quality","opinion":"poor","sentiment":"negative"}]}
+{"doc_id":"fallback_008","dialogue":"Reviewer: The interface is simple and useful.","gold_triplets":[{"target":"interface","opinion":"simple","sentiment":"positive"},{"target":"interface","opinion":"useful","sentiment":"positive"}]}
+{"doc_id":"fallback_009","dialogue":"Reviewer: The update made the app faster.","gold_triplets":[{"target":"app","opinion":"faster","sentiment":"positive"}]}
+{"doc_id":"fallback_010","dialogue":"Reviewer: The microphone records terrible audio.","gold_triplets":[{"target":"microphone","opinion":"terrible","sentiment":"negative"}]}
+{"doc_id":"fallback_011","dialogue":"Reviewer: The soup was cold and bland.","gold_triplets":[{"target":"soup","opinion":"cold","sentiment":"negative"},{"target":"soup","opinion":"bland","sentiment":"negative"}]}
+{"doc_id":"fallback_012","dialogue":"Reviewer: The location is convenient for travelers.","gold_triplets":[{"target":"location","opinion":"convenient","sentiment":"positive"}]}
+{"doc_id":"fallback_013","dialogue":"Reviewer: The price is reasonable and the portion is large.","gold_triplets":[{"target":"price","opinion":"reasonable","sentiment":"positive"},{"target":"portion","opinion":"large","sentiment":"positive"}]}
+{"doc_id":"fallback_014","dialogue":"Reviewer: The charger is bulky and slow.","gold_triplets":[{"target":"charger","opinion":"bulky","sentiment":"negative"},{"target":"charger","opinion":"slow","sentiment":"negative"}]}
+{"doc_id":"fallback_015","dialogue":"Reviewer: The design looks elegant.","gold_triplets":[{"target":"design","opinion":"elegant","sentiment":"positive"}]}
+{"doc_id":"fallback_016","dialogue":"Reviewer: The table was dirty when we arrived.","gold_triplets":[{"target":"table","opinion":"dirty","sentiment":"negative"}]}
+{"doc_id":"fallback_017","dialogue":"Reviewer: The support team was helpful.","gold_triplets":[{"target":"support team","opinion":"helpful","sentiment":"positive"}]}
+{"doc_id":"fallback_018","dialogue":"Reviewer: The installation process was confusing.","gold_triplets":[{"target":"installation process","opinion":"confusing","sentiment":"negative"}]}
+{"doc_id":"fallback_019","dialogue":"Reviewer: The noodles were fresh and tasty.","gold_triplets":[{"target":"noodles","opinion":"fresh","sentiment":"positive"},{"target":"noodles","opinion":"tasty","sentiment":"positive"}]}
+{"doc_id":"fallback_020","dialogue":"Reviewer: The search feature returns irrelevant results.","gold_triplets":[{"target":"search feature","opinion":"irrelevant","sentiment":"negative"}]}
+{"doc_id":"fallback_021","dialogue":"Reviewer: The speaker is loud enough for a small room.","gold_triplets":[{"target":"speaker","opinion":"loud enough","sentiment":"positive"}]}
+{"doc_id":"fallback_022","dialogue":"Reviewer: The seat is too hard.","gold_triplets":[{"target":"seat","opinion":"too hard","sentiment":"negative"}]}
+{"doc_id":"fallback_023","dialogue":"Reviewer: The translation is accurate.","gold_triplets":[{"target":"translation","opinion":"accurate","sentiment":"positive"}]}
+{"doc_id":"fallback_024","dialogue":"Reviewer: The login page crashes often.","gold_triplets":[{"target":"login page","opinion":"crashes often","sentiment":"negative"}]}
+{"doc_id":"fallback_025","dialogue":"Reviewer: The dessert was beautiful and delicious.","gold_triplets":[{"target":"dessert","opinion":"beautiful","sentiment":"positive"},{"target":"dessert","opinion":"delicious","sentiment":"positive"}]}
+{"doc_id":"fallback_026","dialogue":"Reviewer: The documentation lacks examples.","gold_triplets":[{"target":"documentation","opinion":"lacks examples","sentiment":"negative"}]}
+{"doc_id":"fallback_027","dialogue":"Reviewer: The checkout process is quick.","gold_triplets":[{"target":"checkout process","opinion":"quick","sentiment":"positive"}]}
+{"doc_id":"fallback_028","dialogue":"Reviewer: The game controls are awkward.","gold_triplets":[{"target":"game controls","opinion":"awkward","sentiment":"negative"}]}
+{"doc_id":"fallback_029","dialogue":"Reviewer: The cloud sync is reliable.","gold_triplets":[{"target":"cloud sync","opinion":"reliable","sentiment":"positive"}]}
+{"doc_id":"fallback_030","dialogue":"Reviewer: The soup portion is small for the price.","gold_triplets":[{"target":"soup portion","opinion":"small","sentiment":"negative"},{"target":"price","opinion":"small for the price","sentiment":"negative"}]}
+

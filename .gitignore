@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local model and dataset caches
+.ollama/
+ollama_models/
+hf_cache/
+cache/
+
+# Large or transient runtime outputs
+outputs/*.log
+outputs/*.err.log
+outputs/full_eval*.log
+outputs/full_eval*.err.log
+outputs/four_step_eval*.log
+outputs/four_step_eval*.err.log
+outputs/flip_eval*.log
+outputs/flip_eval*.err.log
+outputs/predictions_*.jsonl
+outputs/gradio_home.png
+outputs/gradio_result.png
+
+# Keep final evidence files
+!outputs/evaluation_summary*.csv
+!outputs/evaluation_details_public-aste*.csv
+!outputs/flip_evaluation.csv
+!outputs/flip_summary.json
+!outputs/web_demo_result.json
+!outputs/web_demo_result_zh.json
+!outputs/gradio_result_zh.png
+
+# Local final submission package is stored beside the repo.
+ollama_sentiment_sextuple_final/
+ollama_sentiment_sextuple_final.zip

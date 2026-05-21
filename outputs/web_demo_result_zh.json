@@ -1,0 +1,135 @@
+{
+  "doc_id": "zh_demo_001",
+  "model": "qwen2.5:7b",
+  "target_aspects": [
+    {
+      "target": "房间",
+      "aspect": "烟味"
+    },
+    {
+      "target": "空调",
+      "aspect": "噪音"
+    },
+    {
+      "target": "前台",
+      "aspect": "换房速度"
+    },
+    {
+      "target": "前台",
+      "aspect": "服务态度"
+    },
+    {
+      "target": "房间",
+      "aspect": "卫生"
+    }
+  ],
+  "quadruples": [
+    {
+      "speaker": "张三",
+      "target": "房间",
+      "aspect": "烟味",
+      "opinion": "有"
+    },
+    {
+      "speaker": "张三",
+      "target": "空调",
+      "aspect": "噪音",
+      "opinion": "有点吵"
+    },
+    {
+      "speaker": "张三",
+      "target": "前台",
+      "aspect": "换房速度",
+      "opinion": "十分钟内就给我换了房"
+    },
+    {
+      "speaker": "张三",
+      "target": "前台",
+      "aspect": "服务态度",
+      "opinion": "主动送了早餐券，服务态度很好"
+    },
+    {
+      "speaker": "张三",
+      "target": "房间",
+      "aspect": "卫生",
+      "opinion": "需要改进"
+    }
+  ],
+  "sextuples": [
+    {
+      "doc_id": "zh_demo_001",
+      "speaker": "张三",
+      "target": "房间",
+      "aspect": "烟味",
+      "opinion": "有",
+      "sentiment": "negative",
+      "rationale": "房间有烟味",
+      "confidence": 0.8,
+      "sentiment_flip": "None"
+    },
+    {
+      "doc_id": "zh_demo_001",
+      "speaker": "张三",
+      "target": "空调",
+      "aspect": "噪音",
+      "opinion": "有点吵",
+      "sentiment": "negative",
+      "rationale": "空调噪音大",
+      "confidence": 0.7,
+      "sentiment_flip": "None"
+    },
+    {
+      "doc_id": "zh_demo_001",
+      "speaker": "张三",
+      "target": "前台",
+      "aspect": "换房速度",
+      "opinion": "十分钟内就给我换了房",
+      "sentiment": "positive",
+      "rationale": "快速换房",
+      "confidence": 0.9,
+      "sentiment_flip": "None"
+    },
+    {
+      "doc_id": "zh_demo_001",
+      "speaker": "张三",
+      "target": "前台",
+      "aspect": "服务态度",
+      "opinion": "主动送了早餐券，服务态度很好",
+      "sentiment": "positive",
+      "rationale": "服务好",
+      "confidence": 0.9,
+      "sentiment_flip": "None"
+    },
+    {
+      "doc_id": "zh_demo_001",
+      "speaker": "张三",
+      "target": "房间",
+      "aspect": "卫生",
+      "opinion": "需要改进",
+      "sentiment": "negative",
+      "rationale": "卫生需改",
+      "confidence": 0.8,
+      "sentiment_flip": "None"
+    }
+  ],
+  "sentiment_flips": [
+    {
+      "speaker": "张三",
+      "target": "前台",
+      "aspect": "服务态度",
+      "from_sentiment": "positive",
+      "to_sentiment": "negative",
+      "trigger": "房间卫生需要改进"
+    }
+  ],
+  "valid_json": true,
+  "json_errors": [],
+  "latency_seconds": 65.6492,
+  "mode": "four-step",
+  "raw_steps": {
+    "step1": "{\n  \"doc_id\": \"zh_demo_001\",\n  \"target_aspects\": [\n    {\"target\": \"房间\", \"aspect\": \"烟味\"},\n    {\"target\": \"空调\", \"aspect\": \"噪音\"},\n    {\"target\": \"前台\", \"aspect\": \"换房速度\"},\n    {\"target\": \"前台\", \"aspect\": \"服务态度\"},\n    {\"target\": \"房间\", \"aspect\": \"卫生\"}\n  ]\n}",
+    "step2": "{\n  \"doc_id\": \"zh_demo_001\",\n  \"quadruples\": [\n    {\"speaker\": \"张三\", \"target\": \"房间\", \"aspect\": \"烟味\", \"opinion\": \"有\"},\n    {\"speaker\": \"张三\", \"target\": \"空调\", \"aspect\": \"噪音\", \"opinion\": \"有点吵\"},\n    {\"speaker\": \"张三\", \"target\": \"前台\", \"aspect\": \"换房速度\", \"opinion\": \"十分钟内就给我换了房\"},\n    {\"speaker\": \"张三\", \"target\": \"前台\", \"aspect\": \"服务态度\", \"opinion\": \"主动送了早餐券，服务态度很好\"},\n    {\"speaker\": \"张三\", \"target\": \"房间\", \"aspect\": \"卫生\", \"opinion\": \"需要改进\"}\n  ]\n}",
+    "step3": "{\n  \"doc_id\": \"zh_demo_001\",\n  \"sextuples\": [\n    {\n      \"doc_id\": \"zh_demo_001\",\n      \"speaker\": \"张三\",\n      \"target\": \"房间\",\n      \"aspect\": \"烟味\",\n      \"opinion\": \"有\",\n      \"sentiment\": \"negative\",\n      \"rationale\": \"房间有烟味\",\n      \"confidence\": 0.8,\n      \"sentiment_flip\": \"None\"\n    },\n    {\n      \"doc_id\": \"zh_demo_001\",\n      \"speaker\": \"张三\",\n      \"target\": \"空调\",\n      \"aspect\": \"噪音\",\n      \"opinion\": \"有点吵\",\n      \"sentiment\": \"negative\",\n      \"rationale\": \"空调噪音大\",\n      \"confidence\": 0.7,\n      \"sentiment_flip\": \"None\"\n    },\n    {\n      \"doc_id\": \"zh_demo_001\",\n      \"speaker\": \"张三\",\n      \"target\": \"前台\",\n      \"aspect\": \"换房速度\",\n      \"opinion\": \"十分钟内就给我换了房\",\n      \"sentiment\": \"positive\",\n      \"rationale\": \"快速换房\",\n      \"confidence\": 0.9,\n      \"sentiment_flip\": \"None\"\n    },\n    {\n      \"doc_id\": \"zh_demo_001\",\n      \"speaker\": \"张三\",\n      \"target\": \"前台\",\n      \"aspect\": \"服务态度\",\n      \"opinion\": \"主动送了早餐券，服务态度很好\",\n      \"sentiment\": \"positive\",\n      \"rationale\": \"服务好\",\n      \"confidence\": 0.9,\n      \"sentiment_flip\": \"None\"\n    },\n    {\n      \"doc_id\": \"zh_demo_001\",\n      \"speaker\": \"张三\",\n      \"target\": \"房间\",\n      \"aspect\": \"卫生\",\n      \"opinion\": \"需要改进\",\n      \"sentiment\": \"negative\",\n      \"rationale\": \"卫生需改\",\n      \"confidence\": 0.8,\n      \"sentiment_flip\": \"None\"\n    }\n  ]\n}",
+    "step4": "{\n  \"doc_id\": \"zh_demo_001\",\n  \"sentiment_flips\": [\n    {\n      \"speaker\": \"张三\",\n      \"target\": \"前台\",\n      \"aspect\": \"服务态度\",\n      \"from_sentiment\": \"positive\",\n      \"to_sentiment\": \"negative\",\n      \"trigger\": \"房间卫生需要改进\"\n    }\n  ]\n}"
+  }
+}

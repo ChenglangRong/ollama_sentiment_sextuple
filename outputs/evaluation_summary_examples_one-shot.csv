@@ -1,0 +1,2 @@
+﻿model,mode,dataset,samples,precision,recall,f1,sentiment_accuracy,valid_json_rate,avg_latency_seconds,total_seconds
+heuristic-demo,one-shot,examples,10,0.5333333333333333,0.7,0.5461904761904762,1.0,1.0,0.0,0.004061900001033791

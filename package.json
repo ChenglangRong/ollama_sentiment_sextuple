@@ -1,0 +1,17 @@
+{
+  "name": "ollama_sentiment_sextuple",
+  "version": "1.0.0",
+  "description": "Ollama local LLM deployment and sentiment sextuple extraction course project.",
+  "private": true,
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "python -m pytest -q"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs"
+}
